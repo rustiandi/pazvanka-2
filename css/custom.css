@@ -1,0 +1,153 @@
+:root {
+	--default-color-body: #666;
+	--btn-theme-text-color: #fff;
+	--btn-theme-color: #b5a092;
+	--btn-white-text-color: #666;
+	--btn-white-color: #fff;
+	--swal-button-color: #b5a092;
+	--swal-button-text-color: #fff;
+	--swal-title-color: #b5a092;
+	--swal-text-color: #666;
+	--please-wait-color: #b5a092;
+	--form-control-color: #666;
+	--form-control-border-color: #b5a092;
+	--form-control-disabled-color: #b5a092;
+
+	--header-bg: #b5a092;
+	--header-text-color-p: #fff;
+	--header-text-color-h1: #fff;
+	--header-text-color-i: #fff;
+
+	--quotes-bg: #b5a092;
+	--quotes-border-color: #fff;
+	--quotes-text-color-p: #fff;
+	--quotes-card-border-color: #b5a092;
+	--quotes-card-text-color-p: #666;
+
+	--bridegroom-bg: #fff;
+	--bridegroom-text-color-h3: #b5a092;
+	--bridegroom-text-color-h1: #b5a092;
+	--bridegroom-text-color-h2: #666;
+	--bridegroom-text-color-p: #666;
+	--bridegroom-ig-color: #b5a092;
+
+	--divider-bg: #fff;
+
+	--story-line-bg: #fff;
+	--story-line-text-color-h3: #b5a092;
+	--timeline-line-color: #b5a092;
+	--timeline-panel-border-color: #b5a092;
+	--timeline-panel-bg: #fff;
+	--timeline-panel-border-shadow: #b5a092;
+	--timeline-love-bg: #b5a092;
+	--timeline-love-color: #fff;
+	--story-line-text-color-h4: #666;
+	--story-line-text-color-p: #666;
+
+	--date-wedding-bg: #b5a092;
+	--date-wedding-border-color: #fff;
+	--date-wedding-text-color-h1: #b5a092;
+	--date-wedding-text-color-h2: #b5a092;
+	--date-wedding-text-color-p: #666;
+	--date-wedding-card-border-color: #b5a092;
+
+	--envelope-bg: #fff;
+	--envelope-text-color-h1: #b5a092;
+	--envelope-text-color-p: #666;
+	--envelope-border-color: #b5a092;
+	--envelope-card-body-text-color-p: #fff;
+	--envelope-card-border-color: #fff;
+	--envelope-card-body-text-color-h2: #fff;
+	--envelope-card-color-rgb: 181, 160, 146;
+	--envelope-card-bg: #b5a092;
+
+	--gallery-bg: #fff;
+	--gallery-border-color: #b5a092;
+	--gallery-text-color-h1: #b5a092;
+
+	--rsvp-bg: #fff;
+	--rsvp-text-color-h1: #b5a092;
+	--rsvp-text-color-p: #666;
+	--rsvp-border-color: #fff;
+
+	--countdown-bg: #b5a092;
+	--countdown-border-color: #fff;
+	--countdown-text-color-h1: #fff;
+	--countdown-text-shadow-h1: #b5a092;
+	--countdown-text-color-h4: #b5a092;
+
+	--wishes-bg: #b5a092;
+	--wishes-border-color: #fff;
+	--wishes-card-text-color-h1: #b5a092;
+	--wishes-card-text-color-p: #666;
+	--wishes-message-color: #fff;
+	--wishes-closing-text-color-h1: #fff;
+	--wishes-closing-text-color-p: #fff;
+
+	--footer-bg: #fff;
+	--footer-text-color-h1: #b5a092;
+	--footer-text-color-p: #666;
+	--footer-text-color-a: #b5a092;
+	--footer-copyright-color: #666;
+
+	--bride-cover-text-color-h2: #fff;
+	--bride-cover-text-color-p: #fff;
+	--bride-cover-text-color-h1: #fff;
+	--guest-cover-text-color-h2: #fff;
+	--guest-cover-text-color-p: #fff;
+
+}
+
+.header {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74%, var(--header-bg) 100%), url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.card-img-1 {
+	background: url(../img/quote1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.quotes .quotes-img .card .card-img-2 {
+	background: url(../img/quote2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.divider .img-divider-1 {
+	background: url(../img/story1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.divider .img-divider-2 {
+	background: url(../img/story2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.date-bg-first {
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/date1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.date-bg-second {
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/date2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.countdown .countdown-img {
+	background: url(../img/countdown.jpg);
+	background-size: cover;
+	background-position: top center;
+}
+
+.cover-invitation {
+	background: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../img/cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
